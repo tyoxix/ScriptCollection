@@ -50,6 +50,7 @@ function Install-IfManufacturerAndModel {
                 Invoke-Expression $InstallCommand
                 break
             }
+            }
         }
     }
 }
